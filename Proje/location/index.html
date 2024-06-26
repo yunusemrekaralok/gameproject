@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bölge Seçimi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Bir Bölge Seçin</h2>
+    <div class="regions">
+        <div class="region" id="bozkir" onclick="selectRegion('bozkir')">
+            <h3>Bozkır</h3>
+            <p>Hayvan yetiştiriciliği %10 daha hızlı</p>
+            <p>Atlı asker üretim maliyeti %10 ucuz</p>
+            <p>Nüfus artışı %5 daha iyi</p>
+        </div>
+        <div class="region" id="orman" onclick="selectRegion('orman')">
+            <h3>Yağmur Ormanı</h3>
+            <p>Piyade üretim maliyeti %10 ucuz</p>
+            <p>Odunculuk faaliyetleri %20 daha fazla</p>
+        </div>
+        <div class="region" id="kutup" onclick="selectRegion('kutup')">
+            <h3>Kutup</h3>
+            <p>Madenler %25 daha verimli</p>
+        </div>
+        <div class="region" id="col" onclick="selectRegion('col')">
+            <h3>Çöl</h3>
+            <p>Kervan oluşturma ücreti %20 daha ucuz</p>
+            <p>Kervan hareket hızı %5 daha hızlı</p>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

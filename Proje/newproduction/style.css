@@ -1,0 +1,43 @@
+/* CSS yeni-tesis-kur-style.css */
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.card {
+    display: inline-block;
+    width: 200px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+h2 {
+    margin: 0;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
